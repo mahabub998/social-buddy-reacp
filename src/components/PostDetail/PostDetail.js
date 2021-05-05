@@ -19,7 +19,7 @@ const PostDetail = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setComments(data))
-    },{})
+    },[])
 
     return (
         <div>
